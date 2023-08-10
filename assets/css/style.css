@@ -201,6 +201,19 @@ body {
   padding: 0;
 }
 
+.subscribe {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  background: green;
+  padding: 8px 20px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 4px;
+  color:white;
+}
+
 /* Login form */
 
 .login-form {
