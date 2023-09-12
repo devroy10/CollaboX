@@ -4,7 +4,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: black;
+  color: rgb(39, 38, 38);
 }
 
 a {
@@ -211,39 +211,9 @@ body {
   margin-left: 30px;
   border: none;
   border-radius: 4px;
-  color:white;
+  color: white;
 }
 
-/* Login form */
-
-.login-form {
-  width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-.login-form h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.login-form input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.login-form input[type="submit"] {
-  background-color: #000;
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-}
 
 /* Responsive styles */
 
@@ -1544,10 +1514,9 @@ body {
   padding: 10px 15px 20px 15px;
 }
 
-.team .member .member-info h4 {
-  font-weight: 700;
+.team .member .member-info h3 {
+  font-weight: 500;
   margin-bottom: 5px;
-  font-size: 20px;
   color: green;
 }
 
@@ -1974,7 +1943,7 @@ body {
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background: white;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
